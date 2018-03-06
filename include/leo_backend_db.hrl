@@ -27,7 +27,7 @@
 -define(APP_NAME, 'leo_backend_db').
 
 -type(type_of_methods() :: put | get | delete | fetch).
--type(backend_db() :: bitcask | leveldb | ets).
+-type(backend_db() :: bitcask | ets).
 
 -define(DEF_ELEVELDB_FADVISE_WILLNEED, false).
 -define(DEF_ELEVELDB_WRITE_BUF_SIZE, 62914560).

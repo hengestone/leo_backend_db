@@ -7,3 +7,6 @@ leo_backend_db.dot
 leo_backend_db.png
 .rebar/
 doc/
+_build/
+*~
+rebar.lock
